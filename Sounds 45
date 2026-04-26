@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Links</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #121212; color: white; text-align: center; padding: 40px 20px; }
+        .container { max-width: 400px; margin: auto; }
+        h1 { font-size: 24px; margin-bottom: 30px; }
+        .link { display: block; background-color: #333; color: white; text-decoration: none; padding: 15px; margin-bottom: 15px; border-radius: 8px; transition: 0.3s; border: 1px solid #444; }
+        .link:hover { background-color: #444; transform: scale(1.02); }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Minha Bio</h1>
+        
+        <!-- TROQUE OS LINKS ABAIXO PELOS SEUS -->
+        <a href="https://instagram.com" class="link" target="_blank">Instagram</a>
+        <a href="https://wa.me" class="link" target="_blank">WhatsApp</a>
+        <a href="https://github.com" class="link" target="_blank">Meu GitHub</a>
+        
+    </div>
+</body>
+</html>
